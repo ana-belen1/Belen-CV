@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="css/css-gg.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="resources/logo.svg" type="image/svg" />
+    <title>Mi Sitio CCV</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <script src="JS/site.js"></script>
+</head>
+
+<body>
+    <div class="main-content">
+        <aside>
+            <div class="profile">
+                <img src="resources/Foto tsu.png" id="photo-profile" class="my-photo" />
+                <div>
+                    <h1 class="title">Ana Belen Villegas Ambriz</h1>
+                    <div class="badge-profile">ESTUDIANTE</div>
+                    <div class="social">
+                            <a href="facebook.com" target="_blank"><i class="gg-facebook"></i></a>
+                            <a href="twitter.com" target="_blank"><i class="gg-twitter"></i></a>
+                            <a href="YouTube.com" target="_blank"><i class="gg-youtube"></i></a>
+                            <a href="pokemon-go.com"><i class="gg-pokemon"></i></a>
+                    </div>
+                </div>
+                <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i>Agosto 23 </li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i>Puebla, puebla</li>
+                        <li class="contacts-block-item"><i class="gg-mail"></i><a
+                                href="mailto:example@mail.com">villegasanabelen3@gmail.com</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>22-21-11-17-29</li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i><a
+                                href="skype:skype-example">skype:Belen_1510</a></li>
+                    </ul>
+                    <a class=" btn" href="media/cv.pdf">Descargar CV</a>
+                </div>
+            </div>
+        </aside>
+        <section class="resume">
+            <header>
+                <div class="menu-circle">
+                    <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+                </div>
+                <div class="inner-menu js-menu">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="index.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="porfolio.html">Portafolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+            <div>
+                <h2 class="title bordered">Acerca de mi</h2>
+                <p>
+                    Estudiante de Ingeniería en Software con ganas de adquirir experiencia práctica en el desarrollo 
+                    de soluciones tecnológicas.
+                </p>
+                <p>
+                    Me apasiona la creación de productos innovadores y estoy en constante búsqueda de oportunidades para aprender
+                     y aplicar mis conocimientos.Con disposición para aprender, adaptarme a nuevos entornos y colaborar 
+                     en proyectos que generen valor.
+                </p>
+            </div>
+            <div class="services-content">
+                <h2>Mis habilidades</h2>
+                <div class="my-services">
+                    <div>
+                        <span class="gg-pen"></span>
+                        <div>
+                            <h3>Habilidad 1</h3>
+                            <p>
+                                Tengo experiencia básica en el uso del framework CodeIgniter y control de versiones con Git, 
+                                además de familiaridad con metodologías ágiles como Scrum. 
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="gg-pen"></span>
+                        <div>
+                            <h3>Habilidad 2</h3>
+                            <p>
+                                Me considero una persona con gran capacidad de aprendizaje, orientada a la resolución de problemas,
+                                adaptable y con habilidades para el trabajo en equipo, la organización y la gestión del tiempo.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="gg-pen"></span>
+                        <div>
+                            <h3>Habilidad 3</h3>
+                            <p>
+                                Además de mis competencias técnicas, destaco por mi capacidad de trabajo en equipo, liderazgo en proyectos,
+                                comunicación efectiva y atención al detalle.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-content">
+                <h2>Resumen</h2>
+                <div>
+                    <div>
+                        <h2><i class="fa fa-user-graduate">Educacion</i></h2>
+                        <div class="timeline">
+                            <article class="timeline_item">
+                                <h5 class="title title--h5 timeline_title">Técnico Superior Universitario</h5>
+                                <span class="timeline_period">2022-2024</span>
+                                <p class="timeline_description">
+                                    Durante mi formación en Técnico Superior Universitario, me especialicé en el desarrollo de software y 
+                                    la gestión de proyectos. También adquirí habilidades clave en programación, análisis de datos y trabajo en equipo.
+                                </p>
+                            </article>
+
+                            <article class="timeline_item">
+                                <h5 class="title title--h5 timeline_title">Curso 1</h5>
+                                <span class="timeline_period">2024</span>
+                                <p class="timeline_description">
+                                    En el Curso de Fundamentos del Cómputo en la Nube, aprendí los conceptos clave de las plataformas de nube, 
+                                    como AWS, Google Cloud. Este curso me brindó una comprensión sólida de los modelos de servicio 
+                                    (IaaS, PaaS, SaaS) y su implementación en empresas de diferentes tamaños.
+                                </p>
+                            </article>
+                            <article class="timeline_item">
+                                <h5 class="title title--h5 timeline_title">Curso 2</h5>
+                                <span class="timeline_period">2024</span>
+                                <p class="timeline_description">
+                                    En el curso de Administrador de Bases de Datos No Relacionales, me especialicé en tecnologías como MongoDB, Cassandra 
+                                    y Firebase. Aprendí a diseñar y gestionar bases de datos no relacionales para manejar grandes volúmenes de datos
+                                     con alta disponibilidad y escalabilidad. 
+                                         
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+                    <div>
+                        <h2><i class="fa fa-user-graduate"></i> Mi experiencia</h2>
+                        <div class="timeline">
+                            <article class="timeline_item">
+                                <h5 class="title title--h5 timeline_title">Empresa 1</h5>
+                                <span class="timeline_period">2015-Present</span>
+                                <p class="timeline_description">
+                                    Ademas,contar con un curriculum al dia transmite profesionalismo y organización. Cuando surge una vacante interesante, una promoción interna o una red de
+                                    podemos responder de inmediato, lo que incrementa las responsabilidades de ser considerados para el puesto.
+                                </p>
+                            </article>
+
+                            <article class="timeline_item">
+                                <h5 class="title title--h5 timeline_title">Proyecto 1</h5>
+                                <span class="timeline_period">2013-2015</span>
+                                <p class="timeline_description">
+                                    Ademas,contar con un curriculum al dia transmite profesionalismo y organización. Cuando surge una vacante interesante, una promoción interna o una red de
+                                    podemos responder de inmediato, lo que incrementa las responsabilidades de ser considerados para el puesto.
+                                </p>
+                            </article>
+
+                            <article class="timeline_item">
+                                <h5 class="title title--h5 timeline_title">Proyecto 2</h5>
+                                <span class="timeline_period">2010-2013</span>
+                                <p class="timeline_description">
+                                    Ademas,contar con un curriculum al dia transmite profesionalismo y organización. Cuando surge una vacante interesante, una promoción interna o una red de
+                                    podemos responder de inmediato, lo que incrementa las responsabilidades de ser considerados para el puesto.
+                                </p>
+                            </article>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+    <footer>AUTOR:Belen Villegas</footer>
+</body>
+
+</html>
